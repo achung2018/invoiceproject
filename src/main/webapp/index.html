@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Invoice</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://chancejs.com/chance.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/606744b694.js"></script>
+    <script LANGUAGE="JavaScript" SRC="scripts/CalendarPopup.js"></script>
+    <script LANGUAGE="JavaScript">
+        var cal = new CalendarPopup();
+    </script>
+  </head>
+  <body>
+    <div>
+      <h1>Invoice<small></small></h1>
+      <div class="form-box">
+        <form id="invoiceInputForm" NAME="invoice">
+          <div>
+            <label class="name-label" for="nameInput">Name</label>
+            <input type="text" class="name-input" id="nameInput">
+          </div>
+          <div>
+            <label class="email-label" for="emailInput">Email</label>
+            <input class="email-input" type="text" id="emailInput">
+          </div>
+          <div>
+            <label class="due-label" for="dueDateInput">Due Date</label>
+                   <div class="input-group add-on date datepicker due-container" data-date-format="yyyy-mm-dd">
+                       <input name="indate" value="" type="text" class="form-control date-picker due-input" data-date-format="yyyy-mm-dd" id="dueDateInput">
+                            <div class="input-group-btn date-icon">
+                                <button class="btn btn-default" onClick="cal.select(document.forms['invoice'].indate,'duecal','MM/dd/yyyy'); return false;">
+                                    <i class="fa fa-calendar"></i>
+                                </button>
+                            </div>
+                   </div>
+            <div class="duecal" ID="duecal"></div>
+          </div>
+          <div>
+             <label class="desc-label" for="descriptionInput">Description</label>
+             <label class="amount-label" for="amountInput">Amount</label>
+          </div>
+          <div>
+            <input class="desc-input" type="text" id="descriptionInput">
+            <input class="amount-input" type="text" id="amountInput">
+          </div>
+          <div class="icon icon-plus" id="addButton">
+                <span class="name">+</span>
+          </div>
+          <div>
+             <label class="total-label" for="totalInvoiceAmount">TOTAL</label>
+             <label class="monetary">$</label>
+             <input class="total-value" type="text" name="total" id="totalInvoiceAmount" value="0.00" readonly>
+          </div>
+
+          <button type="submit" class="btn btn-primary" id="submit">Send</button>
+        </form>
+    </div>
+  </body>
+  <script src="scripts/main.js"></script>
+</html>

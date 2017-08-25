@@ -1,0 +1,394 @@
+
+.name-label {
+   position: relative;
+   color: #414141;
+   font-size: 14px;
+   left: 50px;
+   top: 50px;
+}
+
+.name-input {
+   position: relative;
+   color: #414141;
+   font-size: 14px;
+   left: 100px;
+   top: 50px;
+   width: 200px;
+   height: 25px;
+   border-style: inset;
+   border-color: #D3D3D3;
+}
+
+.email-label {
+   position: relative;
+   color: #414141;
+   font-size: 14px;
+   left: 50px;
+   top: 80px;
+}
+
+.email-input {
+   position: relative;
+   color: #414141;
+   font-size: 14px;
+   left: 100px;
+   top: 80px;
+   width: 200px;
+   height: 25px;
+   border-style: inset;
+   border-color: #D3D3D3;
+}
+
+.due-label{
+   position: relative;
+   color: #414141;
+   font-size: 14px;
+   left: 50px;
+   top: 110px;
+}
+
+.due-container{
+   position: relative;
+   font-size: 14px;
+   left: 140px;
+   top: 90px;
+   width: 200px;
+}
+
+.due-input {
+  position: relative;
+  font-size: 14px;
+  width: 200px;
+  height: 25px;
+  border-style: inset;
+  border-color: #D3D3D3;
+}
+
+.date-icon {
+  position: relative;
+  left: 170px;
+  top: -26px;
+}
+
+.desc-label{
+   position: relative;
+   color: #414141;
+   font-size: 14px;
+   left: 50px;
+   top: 110px;
+}
+
+.amount-label{
+   position: relative;
+   color: #414141;
+   font-size: 14px;
+   left: 355px;
+   top: 110px;
+}
+
+.desc-input{
+   position: relative;
+   color: #414141;
+   font-size: 14px;
+   left: 50px;
+   top: 120px;
+   width: 290px;
+   height: 25px;
+   border-style: inset;
+   border-color: #D3D3D3;
+}
+
+.amount-input{
+   position: relative;
+   color: #414141;
+   font-size: 14px;
+   left: 120px;
+   top: 120px;
+   width: 60px;
+   height: 25px;
+   border-style: inset;
+   border-color: #D3D3D3;
+}
+
+.icon .name {
+width: 32px;
+position: relative;
+text-align: center;
+top: 150px;
+left: 50px;
+background: #87CEFA;
+border-radius: 10%;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+  color: #fff;
+  display: table-cell;
+  font-size: 20px;
+  height: 20px;
+  padding:8px;
+  text-align: center;
+  transition: .5s;
+  vertical-align: middle;
+  width: 20px;
+}
+
+.total-label{
+   position: relative;
+   color: #414141;
+   font-size: 16px;
+   left: 350px;
+   top: 170px;
+   font-weight: bold;
+}
+
+.monetary {
+  position: relative;
+  top: 170px;
+  left: 369px;
+  font-weight: bold;
+}
+
+.total-value{
+   position: relative;
+   color: #414141;
+   font-size: 16px;
+   left: 370px;
+   top: 170px;
+   border: none;
+   width: 100px;
+  font-weight: bold;
+}
+
+.btn-primary{
+   position: relative;
+   top: 205px;
+   left: 350px;
+   background-color: #D3D3D3;
+   border-radius: 15px;
+   color: white;
+   padding: 10px 40px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   color: black;
+}
+
+.form-box{
+   display: flex;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+   transition: 0.3s;
+   padding: 20px;
+   width: 530px;
+   height: 500px;
+}
+
+.add-on .input-group-btn > .btn {
+  border-left-width:0;
+  left:-2px;
+  -webkit-box-shadow: inset 0 0.5px 0.5px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 0.5px 0.5px rgba(0, 0, 0, 0.075);
+}
+/* stop the glowing blue shadow */
+.add-on .form-control:focus {
+ box-shadow:none;
+ -webkit-box-shadow:none;
+ border-color:#cccccc;
+}
+
+.duecal{
+	position: relative;
+  left: 100px;
+  top: 0px;
+}
+
+@media(max-width: 529px) {
+  .form-box{
+   display: flex;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+   transition: 0.3s;
+   padding: 20px;
+   width: 460px;
+   height: 430px;
+}
+
+.name-label {
+   position: relative;
+   color: #414141;
+   font-size: 14px;
+   left: 10px;
+   top: 10px;
+}
+
+.name-input {
+   position: relative;
+   color: #414141;
+   font-size: 14px;
+   left: 50px;
+   top: 10px;
+   width: 200px;
+   height: 25px;
+   border-style: inset;
+   border-color: #D3D3D3;
+}
+
+
+.email-label {
+   position: relative;
+   color: #414141;
+   font-size: 14px;
+   left: 10px;
+   top: 40px;
+}
+
+.email-input {
+   position: relative;
+   color: #414141;
+   font-size: 14px;
+   left: 50px;
+   top: 40px;
+   width: 200px;
+   height: 25px;
+   border-style: inset;
+   border-color: #D3D3D3;
+}
+
+.due-label{
+   position: relative;
+   color: #414141;
+   font-size: 14px;
+   left: 10px;
+   top: 70px;
+}
+
+.due-container{
+   position: relative;
+   font-size: 14px;
+   left: 90px;
+   top: 50px;
+   width: 200px;
+}
+
+.due-input {
+  position: relative;
+  font-size: 14px;
+  width: 200px;
+  height: 25px;
+  border-style: inset;
+  border-color: #D3D3D3;
+}
+
+.date-icon {
+  position: relative;
+  left: 170px;
+  top: -26px;
+}
+
+.desc-label{
+   position: relative;
+   color: #414141;
+   font-size: 14px;
+   left: 10px;
+   top: 70px;
+}
+
+.amount-label{
+   position: relative;
+   color: #414141;
+   font-size: 14px;
+   left: 295px;
+   top: 70px;
+}
+
+.desc-input{
+   position: relative;
+   color: #414141;
+   font-size: 14px;
+   left: 10px;
+   top: 80px;
+   width: 250px;
+   height: 25px;
+   border-style: inset;
+   border-color: #D3D3D3;
+}
+
+.amount-input{
+   position: relative;
+   color: #414141;
+   font-size: 14px;
+   left: 100px;
+   top: 80px;
+   width: 60px;
+   height: 25px;
+   border-style: inset;
+   border-color: #D3D3D3;
+}
+
+.icon .name {
+width: 32px;
+position: relative;
+text-align: center;
+top: 100px;
+left: 15px;
+background: #87CEFA;
+border-radius: 10%;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+  color: #fff;
+  display: table-cell;
+  font-size: 20px;
+  height: 20px;
+  padding:8px;
+  text-align: center;
+  transition: .5s;
+  vertical-align: middle;
+  width: 20px;
+}
+
+.total-label{
+   position: relative;
+   color: #414141;
+   font-size: 16px;
+   left: 280px;
+   top: 120px;
+   font-weight: bold;
+}
+
+.monetary {
+  position: relative;
+  top: 120px;
+  left: 295px;
+  font-weight: bold;
+}
+
+.total-value{
+   position: relative;
+   color: #414141;
+   font-size: 16px;
+   left: 295px;
+   top: 120px;
+   border: none;
+   width: 100px;
+  font-weight: bold;
+}
+
+.btn-primary{
+   position: relative;
+   top: 140px;
+   left: 300px;
+   background-color: #D3D3D3;
+   border-radius: 15px;
+   color: white;
+   padding: 10px 40px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   color: black;
+}
+
+.duecal{
+  position: relative;
+  left: 100px;
+  top: 0px;
+}
+
+}
+
